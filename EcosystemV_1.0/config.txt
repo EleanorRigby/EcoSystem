@@ -1,0 +1,71 @@
+/// all characters are small case
+
+/// dim - dimensions should be first line .. dim x y
+
+dim 5 5
+
+/// org - organism .. org x y age health
+
+org 1 1 4 25 
+
+org 3 3 5 100
+
+org 2 1 3 150
+
+org 5 5 4 150
+
+org 4 3 3 150
+
+
+
+/// foo food .. foo x y
+
+
+foo 2 2
+foo 1 3
+
+/// egg - egg format ... egg x y age
+
+egg 4 4 1
+
+
+egg 5 2 1
+
+
+egg 3 1 4
+
+/// hda - age at which health decreases .. hda age
+
+hda 50
+
+/// shr - health decrease rate .. shr rate
+
+shr 8
+
+/// hdr - health decrease rate due to age .. hdr rate
+
+hdr 4
+
+/// apt - age per turn.. apt value
+
+apt 5
+
+/// eha egg hatching age.. eha age
+
+eha 20
+
+/// oih - organism initial health (after hatching)..oih value
+
+oih 50
+
+/// hpf - health per food..hpf value
+
+hpf 15
+
+/// ela - Egg laying age .. ela value
+
+ela 10
+
+/// elh - Egg laying Health .. elh value
+
+elh 70
